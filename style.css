@@ -1,0 +1,87 @@
+body {
+  background-color: #BBBDBF;
+  color: rgb(24, 29, 49);
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+
+}
+h1 {
+  color: rgb(24, 29, 49);
+  font-weight: 700;
+  font-family: Helvetica;
+}
+a {text-decoration: none;
+    font-weight: 600;
+}
+h2 {font-size: 24px
+}
+
+a:hover {
+ color: #263159;
+}
+
+.CONTAINER{
+  width: 700px;
+    margin: 10px auto;
+}
+
+@MEDIA (MAX-WIDTH:768PX){
+  .CONTAINER{
+    width: 500PX;
+  }
+}
+
+@MEDIA (MAX-WIDTH:576PX){
+  .CONTAINER{
+    width: 300PX;
+  }
+}
+
+.CARD-WHITE{
+  background: white;
+  padding: 40PX;
+  box-shadow: 0PX 10PX 30PX rgba(0, 0, 0, 1.0);
+  border-radius: 4PX;
+  margin: 20PX 0PX;
+  text-align: center;
+}
+
+.IMG-CIRCLE{
+  border-radius: 50%;
+}
+
+.BTN-PURPLE{
+  background-color: #263159;
+  color: white;
+  padding: 10PX 20PX;
+  border-radius: 4PX;
+  padding-bottom: 10PX;
+}
+
+.BTN-PURPLE:hover{
+background-color: BLACK;
+color: white;
+}
+
+.LIST-INLINE{
+  list-style: none;
+  padding-left: 0PX;
+}
+
+.LIST-INLINE LI {
+  display: inline;
+  padding: 10PX;
+}
+
+.LIST-INLINE I {
+  font-size: 50PX;
+  color: rgb(230, 230, 230);
+}
+
+.LIST-INLINE I:hover{
+  color: black;
+}
+
+#INTRO P {
+  margin-bottom: 40PX;
+}
